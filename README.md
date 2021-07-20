@@ -20,3 +20,11 @@
 1.) Faced bit of challenge to figure out how to iterate through Unity's mesh implementation
 
 2.) Used triangle intersection to figure out collision with various voxels. It was bit challenging since I needed to figure out correct math, however, this is slow and should be optimized using octtree. This does however gives us opporunity to run the algorithm using compute shader. 
+
+# ToDo 
+
+1.) LOD implementation - Pass step size or voxel resolution to setup LOD
+
+2.) Voxel creation is super slow - Use octtree on CPU or move the current impl to Compute shaders
+
+3.) Explore URP or HDRP for rendering voxels
